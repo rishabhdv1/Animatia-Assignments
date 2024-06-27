@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animatia Assignments</title>
+        <link rel="icon" href="./img/favicon (1).ico">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .overlay {
+                position: absolute;
+                width: 280px;
+                height: 210px;
+                text-align: center;
+                line-height: 210px;
+                background: #000;
+                bottom: 210px;
+                background-color: rgba(0, 0, 0, 0.5);
+                transition: 0.5s;
+            }
+            .overlay > a {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                text-align: center;
+                line-height: 40px;
+                color: #333;
+                background: #fff;
+            }
+            .box1:hover > .overlay {
+                bottom: 0;
+                transition: 0.5s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <div class="overlay">
+                <a href="#Link">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+                <a href="#Search">
+                    <i class="fa-solid fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

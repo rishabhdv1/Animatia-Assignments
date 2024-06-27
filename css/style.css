@@ -1,0 +1,9 @@
+.box1 {
+    position: relative;
+    width: 280px;
+    height: 210px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    box-shadow: 0 0 3px .1px #333;
+    overflow: hidden;
+}
